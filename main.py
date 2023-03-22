@@ -67,7 +67,7 @@ def main():
     list_of_price_changes = []
 
     start_time = time.time()
-    one_hour = 300
+    one_hour = 3600
 
     while time.time() - start_time < one_hour:
         time.sleep(3)
